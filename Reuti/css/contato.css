@@ -1,0 +1,60 @@
+.contato {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--verde-escuro);
+}
+
+.contato__titulo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contato__texto {
+    font-size: 1rem;
+    padding:1rem 0 1rem 0;
+}
+
+.contato__botao {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.estilo-padrao, .enviar{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    max-width: 450px;
+    margin: 10px 0;
+}
+
+
+.enviar {
+    border: none;
+    border-radius: 5px;
+    background: var(--verde-claro);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.enviar:hover {
+    background: var(--verde-escuro);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.tit {
+    margin: 1rem 0;
+}

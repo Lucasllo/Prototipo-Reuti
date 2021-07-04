@@ -1,0 +1,43 @@
+.composteira {
+	text-align: center;
+}
+
+
+.composteira__titulo {
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	font-weight: bold;
+}
+
+.composteira__subTitulo{
+	font-size: 1.2rem;
+	margin: .75rem 0;
+}
+
+.composteira__texto {
+	text-align: justify;
+	margin: .75rem 0;
+}
+
+
+.composteira__lista {
+	text-align: left;
+	list-style: square;
+}
+
+.composteira__imagem {
+	width: 100%;
+	margin: 1rem 0;
+	max-width: 450px;
+}
+
+.composteira__botao {
+	padding: 1rem 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+	
+	
+}

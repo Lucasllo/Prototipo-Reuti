@@ -1,0 +1,51 @@
+.cabecalho {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cabecalho__titulo {
+	font-family: var(--ubunto);
+	font-size: 2.75rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: var(--verde-um-pouco-mais-escuro);
+}
+
+.cabecalho__menu {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+}
+
+.menu__item {
+	border-bottom: 1px solid var(--verde-escuro);
+}
+
+.menu__item a {
+	display: block;
+	padding: 0.5rem;
+	border-radius: 10px 10px 0 0;
+	transition: 0.5s;
+}
+
+
+@media screen and (min-width:  1024px) {
+
+	.cabecalho {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.cabecalho__menu {
+		width: 40%;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.menu__item a:hover {
+		background-color: var(--verde-claro); 
+	}
+
+}

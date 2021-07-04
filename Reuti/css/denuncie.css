@@ -1,0 +1,55 @@
+.denuncie{
+	text-align: center;
+	margin-top: 2rem;
+	border-bottom: 1px solid var(--verde-escuro);
+	padding-bottom: 1rem;
+}
+
+.denuncie__mapa {
+	padding: 1rem 0;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.denuncie__titul {
+	padding: 0.7rem;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.denuncie__texto {
+	padding: 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.denuncie__botao {
+	padding: 0.5rem 0;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	width: 80%;
+	max-width: 400px;
+	cursor: pointer;
+}
+
+.denuncie__comentario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.denuncie__container {
+		width: 50%;
+	}
+
+	.denuncie {
+		background-image: url(../img/denuncie2.jpg);
+	}
+	.denuncie__texto {
+		font-size: 1.3rem;
+	}
+
+}

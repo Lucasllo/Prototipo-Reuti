@@ -1,0 +1,29 @@
+.pontos__titulo {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.pontos__caixa {
+	display: flex;
+	margin: .5rem 0;
+	width: 100%;
+	max-width: 450px;
+}
+
+.pontos__numero {
+	padding: 1rem;
+	border: 1px solid black;
+	border-radius: 10px  0  0 10px;
+}
+
+address {
+	padding: 0 5px;
+	border: 1px solid black;
+	border-radius: 0 10px 10px 0 ;
+}
+
+.pontos__imagem {
+	width: 450px;
+}

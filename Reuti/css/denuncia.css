@@ -1,0 +1,41 @@
+.denuncia{
+	text-align: center;
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid var(--verde-escuro);
+}
+
+.denuncia__titulo {
+	padding: 0.7rem;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.denuncia__texto {
+	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+
+.denuncia__botao {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width:  1024px) {
+	.denuncia__botao:hover{
+		opacity: 0.95;
+	}
+
+	.denuncia {
+		display: flex;
+		flex-direction: column;
+		background-image: url(../img/denuncia.jpg);
+		background-size: cover;
+		background-position: 0 10%;
+	}
+
+	.denuncia__container {
+		width: 50%;
+	}
+}

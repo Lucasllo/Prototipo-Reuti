@@ -1,0 +1,39 @@
+:root {
+	--lato: 'Lato', sans-serif;
+	--ubunto:'Ubuntu', sans-serif;
+	--verde-escuro: #50974C;
+	--verde-um-pouco-mais-escuro: #1A9913;
+	--verde-mais-claro: #34B92D;
+	--verde-claro: #76DD71;
+	--fundo: #FFF8F3;
+}
+
+
+body {
+	font-family: var(--lato);
+	background: var(--fundo);
+	color: #022C00;
+}
+
+.container {
+	padding-right: 6%;
+	padding-left: 6%;
+}
+
+.botao {
+	display: block;
+	max-width: 450px;
+	border: 1px solid var(--verde-escuro);
+	border-radius: 25px;
+	font-weight: bold;
+	background: var(--verde-escuro);
+	margin: 0 auto;
+	transition: 0.5s;
+}
+
+@media screen and (min-width:  1024px) {
+	.botao:hover{
+		font-size: 1.3rem;
+	}
+
+}
