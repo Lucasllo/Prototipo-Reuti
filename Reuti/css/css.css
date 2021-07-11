@@ -33,7 +33,7 @@ body {
 
 @media screen and (min-width:  1024px) {
 	.botao:hover{
-		font-size: 1.3rem;
+		transform: scale(1.06);
 	}
 
 }
