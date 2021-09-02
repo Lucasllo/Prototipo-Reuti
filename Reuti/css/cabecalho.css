@@ -6,10 +6,10 @@
 
 .cabecalho__titulo {
 	font-family: var(--ubunto);
-	font-size: 2.75rem;
+	font-size: 5rem;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: var(--verde-um-pouco-mais-escuro);
+	/* color: var(--verde-um-pouco-mais-escuro); */
 }
 
 .cabecalho__menu {
